@@ -1,0 +1,11 @@
+C:\Mohit\DotNetCore Projects\AzureAadApplication\bin\Release\netcoreapp1.1\AzureAadApplication.deps.json
+C:\Mohit\DotNetCore Projects\AzureAadApplication\bin\Release\netcoreapp1.1\AzureAadApplication.runtimeconfig.json
+C:\Mohit\DotNetCore Projects\AzureAadApplication\bin\Release\netcoreapp1.1\AzureAadApplication.runtimeconfig.dev.json
+C:\Mohit\DotNetCore Projects\AzureAadApplication\bin\Release\netcoreapp1.1\AzureAadApplication.dll
+C:\Mohit\DotNetCore Projects\AzureAadApplication\bin\Release\netcoreapp1.1\AzureAadApplication.pdb
+C:\Mohit\DotNetCore Projects\AzureAadApplication\obj\Release\netcoreapp1.1\AzureAadApplication.csproj.CoreCompileInputs.cache
+C:\Mohit\DotNetCore Projects\AzureAadApplication\obj\Release\netcoreapp1.1\AzureAadApplication.AssemblyInfo.cs
+C:\Mohit\DotNetCore Projects\AzureAadApplication\obj\Release\netcoreapp1.1\AzureAadApplication.dll
+C:\Mohit\DotNetCore Projects\AzureAadApplication\obj\Release\netcoreapp1.1\AzureAadApplication.pdb
+C:\Mohit\DotNetCore Projects\AzureAadApplication\obj\Release\netcoreapp1.1\AzureAadApplication.csprojAssemblyReference.cache
+C:\Mohit\DotNetCore Projects\AzureAadApplication\obj\Release\netcoreapp1.1\AzureAadApplication.AssemblyInfoInputs.cache

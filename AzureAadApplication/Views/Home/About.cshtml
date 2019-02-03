@@ -1,0 +1,28 @@
+﻿@using System.Security.Principal
+
+@{
+    ViewData["Title"] = "About";
+}
+<h2>@ViewData["Title"].</h2>
+<h3>@ViewData["Message"]</h3>
+<img src="https://enterprisestoragedata.blob.core.windows.net/enterpriseblobforcdn/cookie.gif" />
+<p>Cookies Image is coming from CDN</p>
+<br />
+
+@if (User.Identity.IsAuthenticated)
+{
+    <span>Hello @(User.Claims.First(c => c.Type == "name").Value)</span>
+    <br />
+    <a asp-area="" asp-controller="Account" asp-action="Signout">Sign Out</a>
+    <br />
+    <br />
+    <a asp-area="" asp-controller="Account" asp-action="GetToken">Get BearerToken</a>
+}
+else
+{
+    <ul>
+        <li>
+            <a asp-area="" asp-controller="Account" asp-action="Signin">Singin</a>
+        </li>
+    </ul>
+}

@@ -1,0 +1,16 @@
+﻿@using System.Security.Principal
+
+@if (User.Identity.IsAuthenticated)
+{
+    <span>Hello @(User.Claims.First(c => c.Type == "name").Value)</span>
+    <br />
+    <a asp-area="" asp-controller="Account" asp-action="Signout">Sign Out</a>
+}
+else
+{
+    <ul>
+        <li>
+            <a asp-area="" asp-controller="Account" asp-action="Signin">Singin</a>
+        </li>
+    </ul>
+}
